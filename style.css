@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+body{
+    background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+     background-repeat: no-repeat;
+     background-size:100%;
+}
+input:focus{
+    border: none;
+}
+p{
+    text-align:right;
+    background-color: blue;
+    
+    color: white;
+}
+.formmiddle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.signup{
+    background-color: bisque;
+    padding: 25px;
+}
+.signup .inputcss{
+    margin-bottom: 10px;
+    display: flex;
+}
+.signup .inputcss label{
+width: 250px;
+max-width: 150px;
+min-width: 100px;
+}
+.signup input{
+    border: 1px solid pink;
+    padding: 3px;
+    height: 30px;
+}
+.signup input:focus{
+outline-color:red ;
+}
+.signup button{
+    background-color: black;
+    color: aliceblue;
+}
+.signup button:hover{
+    background-color: white;
+    color: black;
+}
